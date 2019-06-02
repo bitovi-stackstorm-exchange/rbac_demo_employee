@@ -1,0 +1,5 @@
+---
+enabled: true
+runner_type: orquesta
+name: echo_b
+entry_point: workflows/echo_b.yaml

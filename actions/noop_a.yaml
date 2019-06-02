@@ -1,0 +1,5 @@
+---
+enabled: true
+runner_type: orquesta
+name: noop_a
+entry_point: workflows/noop_a.yaml

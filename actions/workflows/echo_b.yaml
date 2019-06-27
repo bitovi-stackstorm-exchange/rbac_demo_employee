@@ -6,7 +6,7 @@ tasks:
     input:
       message: Hello World
     next:
-      - when: <% success() %>
+      - when: <% succeeded() %>
         do: call_echo_a
 
   call_echo_a:

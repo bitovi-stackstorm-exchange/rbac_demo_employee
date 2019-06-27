@@ -5,3 +5,10 @@ tasks:
     action: core.echo
     input:
       message: Hello World
+    next:
+      - when: <% success() %>
+        do: call_echo_a
+
+  call_echo_a:
+    action: rbac_demo_employee.echo_a
+
